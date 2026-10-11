@@ -1,0 +1,24 @@
+Problem Statement
+Business Context
+Machine Learning Deployment.
+
+A telecommunications company in the United States provides internet, phone, and TV services to residential and business customers. They offer various contract plans, payment methods, and service options to meet customer needs. However, they are experiencing a high churn rate, with customers frequently switching to competitors. This is impacting revenue and long-term customer retention. To address this, the company is looking for data-driven insights to understand churn patterns and improve customer retention strategies.
+
+Objective
+The Retention Intelligence Unit has successfully conducted an in-depth analysis of customer data to uncover patterns influencing churn. Their findings highlight key factors contributing to customer attrition, providing an opportunity to implement targeted retention strategies.
+
+However, to effectively act on these insights, the team aims to operationalize them through a real-time decision-support system. The primary objective is to develop an interactive analytics platform that equips customer service teams, marketing departments, and business leaders with predictive churn insights. The successful deployment of this solution will enable timely interventions, enhance customer engagement efforts, and drive long-term customer retention.
+
+Data Dictionary
+customerID: Unique identifier for each customer.
+SeniorCitizen: Indicates whether the customer is a senior citizen (binary: 0 = No, 1 = Yes).
+Partner: Indicates if the customer has a partner (Yes/No).
+Dependents: Indicates if the customer has dependents (Yes/No).
+tenure: Number of months the customer has been with the service.
+PhoneService: Indicates if the customer has a phone service (Yes/No).
+InternetService: Type of internet service (DSL, Fiber optic, No).
+Contract: Type of contract (Month-to-month, One year, Two year).
+PaymentMethod: Method used for payment (Credit card, Electronic check, etc.).
+MonthlyCharges: The monthly amount charged to the customer.
+TotalCharges: The total amount charged to the customer over time.
+Churn: Indicates whether the customer has left the service (Yes/No).
